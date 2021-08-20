@@ -1,0 +1,35 @@
+.topbar {
+  color: #fff;
+  background-color: #2a363b;
+  position: relative;
+}
+
+.navbar {
+  width: 100%;
+  background-color: #9df3c4;
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  top: 0;
+}
+
+.navItems,
+.footerItems {
+  width: 100%;
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.item {
+  margin: 0 35px;
+  font-size: 26px;
+  color: #2a363b;
+}
+
+footer {
+  width: 100%;
+  display: flex;
+  background-color: #9df3c4;
+}
