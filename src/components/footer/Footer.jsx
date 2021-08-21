@@ -1,4 +1,7 @@
 import React from "react";
+import InstagramIcon from "@material-ui/icons/Instagram";
+import FacebookIcon from "@material-ui/icons/Facebook";
+import TwitterIcon from "@material-ui/icons/Twitter";
 import "./footer.css";
 
 const Footer = () => {
@@ -7,13 +10,19 @@ const Footer = () => {
       <footer>
         <ul className="footerItems">
           <li className="item">
-            <i className="fab fa-instagram"></i>
+            <i>
+              <InstagramIcon className="icon" />
+            </i>
           </li>
           <li className="item">
-            <i className="fab fa-facebook-square"></i>
+            <i>
+              <FacebookIcon className="icon" />
+            </i>
           </li>
           <li className="item">
-            <i className="fab fa-twitter"></i>
+            <i>
+              <TwitterIcon className="icon" />
+            </i>
           </li>
         </ul>
       </footer>
