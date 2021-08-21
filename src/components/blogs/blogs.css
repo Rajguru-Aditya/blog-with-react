@@ -12,7 +12,7 @@
   border-radius: 20px;
   margin: 50px 0;
   position: relative;
-  box-shadow: -5px 20px 5px 5px #202020;
+  box-shadow: -5px 25px 5px 5px #202020;
 }
 
 .card-desc {
@@ -23,7 +23,7 @@
   bottom: -20px;
 }
 
-img {
+.blog-image {
   height: 400px;
   object-fit: cover;
   border-radius: 20px 20px 0 0;

@@ -3,6 +3,7 @@ footer {
   display: flex;
   background-color: #9df3c4;
   margin: 0;
+  height: 100%;
 }
 
 .footerItems {
@@ -19,5 +20,5 @@ i {
 }
 
 .icon {
-  transform: scale(1.8);
+  transform: scale(1.5);
 }

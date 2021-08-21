@@ -6,9 +6,9 @@ function Header() {
   return (
     <div className="header">
       <div className="heading-container">
-        <h1>BEST TRAINING</h1>
-        <h1>FOR</h1>
-        <h1>BEST FRIEND</h1>
+        <h1 className="title">BEST TRAINING</h1>
+        <h1 className="title">FOR</h1>
+        <h1 className="title">BEST FRIEND</h1>
       </div>
       <div className="video-container">
         <video id="background-video" loop={true} autoPlay={true} muted={true}>

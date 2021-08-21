@@ -34,7 +34,7 @@ video {
 
 /* ------------------------>Trial<----------------- */
 
-h1 {
+.title {
   -webkit-animation-name: lightSpeedIn;
   animation-name: lightSpeedIn;
   -webkit-animation-timing-function: ease-out;

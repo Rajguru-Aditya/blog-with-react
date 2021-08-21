@@ -1,7 +1,7 @@
 import React from "react";
 import "./contact.css";
 import { TextField, Button } from "@material-ui/core";
-import ContactUs from "./images/contact_us.svg";
+import getInTouch from "./images/contactME.jpg";
 import { makeStyles } from "@material-ui/core/styles";
 
 const useStyles = makeStyles((theme) => ({
@@ -25,7 +25,7 @@ function Contact() {
       />
       <div className="contact-container">
         <div className="contact-con-img">
-          <img className="inner-img" src={ContactUs} alt="cherryblossom" />
+          <img className="inner-img" src={getInTouch} alt="cherryblossom" />
         </div>
         <form
           className={classes.root}
@@ -56,7 +56,7 @@ function Contact() {
           />
           <TextField
             id="outlined-multiline-static"
-            label="Multiline"
+            label="Message"
             multiline
             rows={4}
             variant="filled"

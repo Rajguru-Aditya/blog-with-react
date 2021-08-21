@@ -10,6 +10,7 @@ function Blogs() {
     return (
       <div className="card">
         <img
+          className="blog-image"
           src="https://media.nature.com/lw800/magazine-assets/d41586-020-01430-5/d41586-020-01430-5_17977552.jpg"
           alt="blog-pic"
         />
